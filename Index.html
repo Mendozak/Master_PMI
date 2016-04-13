@@ -9,9 +9,21 @@
 <body>
 
 	<div class="container-fluid">
-	    <div class="slider_style">
-	      <img src="content/logo2.png" alt="PMI-Nicaragua" class="img-responsive logo">
-	    </div>
+		<div class="row">
+			<div class="col-md-12">
+			    <div class="slider_style">
+			    <div class="row">
+			    	<div class="col-md-6">
+			    		<img src="content/logo2.png" alt="PMI-Nicaragua" class="img-responsive logo">	
+			    	</div>
+			    	<div class="col-md-6">
+			    		<div class="button_user" data-toggle="modal" data-target="#myModal">Hazte Miembro</div>
+			    	</div>
+			    </div>
+	            </div>	
+			</div>
+		</div>
+	    
 
 	    <nav class="navbar navbar-default nav_style">
 		  <div class="container-fluid">
@@ -266,6 +278,71 @@
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+    	<!-- Modal content-->
+    		<div class="modal-content">
+      			<div class="modal-header">
+      				<div class="row">
+      					<div class="col-md-12">
+      					<h3 class="popup_header">Bienvenido, Ingrese sus datos</h3>		
+      					</div>
+      				</div>
+      				<div class="row">
+      					<div class="col-md-12">
+      						<small class="popup_header">
+      							Se requiere los campos con *
+      						</small>
+      					</div>
+      				</div>
+	        		
+      			</div>
+			    <div class="modal-body">
+			       <form action="">
+			       <div class="row">
+			       	<div class="col-md-6">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Primer Nombre</label>
+			       		<input type="text" class="form-control">
+			       	</div>
+			       	</div>
+			       	<div class="col-md-6">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Segundo Nombre</label>
+			       		<input type="text" class="form-control">
+			       	</div>
+			       	</div>
+			       	<div class="col-md-6">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Primer Apellido</label>
+			       		<input type="text" class="form-control">
+			       	</div>
+			       	</div>
+			       	<div class="col-md-6">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Segundo Apellido</label>
+			       		<input type="text" class="form-control">
+			       	</div>
+			       	</div>
+			       	<div class="col-md-12">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Email</label>
+			       		<input type="text" class="form-control">
+			       	</div>
+			       	</div>
+			       </div>
+			       	
+			       </form>
+			    </div>
+		       <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+		       </div>
+    			</div>
+
+  			</div>
 		</div>
         
 	</div>
