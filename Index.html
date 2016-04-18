@@ -9,9 +9,43 @@
 <body>
 
 	<div class="container-fluid">
-	    <div class="slider_style">
-	      <img src="content/logo2.png" alt="PMI-Nicaragua" class="img-responsive logo">
-	    </div>
+		<div class="row">
+			<div class="col-md-12">
+			    <div class="slider_style">
+			    <div class="row">
+			    	<div class="col-md-2">
+			    		<img src="content/logo2.png" alt="PMI-Nicaragua" class="img-responsive logo">	
+			    	</div>
+			    	<div class="col-md-2 col-md-offset-4">
+			    		<div class="button_user" data-toggle="modal" data-target="#myModal">Hazte Miembro</div>
+			    	</div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-1" title="Facebook">
+								<img src="content/facebook.png" alt="facebook" class="social_header" id="facebook">
+							</div>
+							<div class="col-md-1" title="Twitter">
+								<img src="content/twitter.png" alt="facebook" class="social_header" id="twitter">
+							</div>
+							<div class="col-md-1" title="Google +">
+								<img src="content/googleplus.png" alt="facebook" class="social_header" id="google">
+							</div>
+							<div class="col-md-1" title="YouTube">
+								<img src="content/youtube.png" alt="facebook" class="social_header" id="youtube">
+							</div>
+							<div class="col-md-1" title="Linkedin">
+								<img src="content/linkedin.png" alt="facebook" class="social_header" id="linkedin">
+							</div>
+							<div class="col-md-4">
+								<span class="login" data-toggle="modal" data-target="#myModal2">Iniciar Sesi&oacute;n</span>
+							</div>
+						</div>
+					</div>
+			    </div>
+	            </div>	
+			</div>
+		</div>
+	    
 
 	    <nav class="navbar navbar-default nav_style">
 		  <div class="container-fluid">
@@ -26,8 +60,8 @@
 
 			 <div id="navbarCollapse" class="collapse navbar-collapse">
 		        <ul class="nav navbar-nav">
-		            <li class="active"><a href="#">Inicio</a></li>
-		            <li><a href="#">Beneficios</a></li>
+		            <li class="active"><a href="index.html">Inicio</a></li>
+		            <li><a href="beneficios.html">Beneficios</a></li>
 		            <li><a href="#">Memorias</a></li>
 		            <li><a href="#">Boletines</a></li>
 		            <li><a href="#">Eventos</a></li>
@@ -74,7 +108,7 @@
 	        					
 	        			</div>
         				<p class="description_news_information">Presentación AGP, Charla de Valor Ganado” - Universidad Centroamericana (UCA)</p>
-        				<span class="label label-success label_information">Agosto 2013</span>
+        				<span class="label label-primary label_information">Agosto 2013</span>
         				<span class="glyphicon glyphicon-heart"></span>
         				<span class="glyphicon glyphicon-plus-sign"></span>
         				<span class="glyphicon glyphicon-thumbs-up"></span>
@@ -93,7 +127,7 @@
 	        			</div>
         				<p class="description_news_information">Presentación AGP” – Universidad Thomas Moore
                         </p>
-        				<span class="label label-success label_information">Febrero 2014</span>
+        				<span class="label label-primary label_information">Febrero 2014</span>
         				<span class="glyphicon glyphicon-heart"></span>
         				<span class="glyphicon glyphicon-plus-sign"></span>
         				<span class="glyphicon glyphicon-thumbs-up"></span>
@@ -109,7 +143,7 @@
 	        					
 	        			</div>
         				<p class="description_news_information">Presentación AGP, Charla de Valor Ganado” - Universidad Centroamericana (UCA)</p>
-        				<span class="label label-success label_information">Agosto 2013</span>
+        				<span class="label label-primary label_information">Agosto 2013</span>
         				<span class="glyphicon glyphicon-heart"></span>
         				<span class="glyphicon glyphicon-plus-sign"></span>
         				<span class="glyphicon glyphicon-thumbs-up"></span>
@@ -125,7 +159,7 @@
 	        					
 	        			</div>
         				<p class="description_news_information">“Presentación Capitulo Potencial Nicaragua” - Universidad Nacional de Ingeniería (UNI)</p>
-        				<span class="label label-success label_information">Septiembre 2014</span>
+        				<span class="label label-primary label_information">Septiembre 2014</span>
         				<span class="glyphicon glyphicon-heart"></span>
         				<span class="glyphicon glyphicon-plus-sign"></span>
         				<span class="glyphicon glyphicon-thumbs-up"></span>
@@ -239,12 +273,31 @@
 		<div class="row margin_row">
 			<div class="col-md-12">
 				<div class="row">
-					<div class="col-md-4 col-md-offset-7">
+					<div class="col-md-4 col-md-offset-1">
 						<h5 class="label_contact">Contactenos</h5>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4 col-md-offset-8">
+					<div class="col-md-4 col-md-offset-1">
+						<div class="row margin_row">
+							<div class="col-md-12">
+								<form>
+								  <div class="form-group">
+									  <label for="" class="popup_header">Comentario</label>
+									  <textarea class="form-control" rows="3"></textarea>
+								  </div>
+								  <div class="form-group">
+								  	  <input type="email" class="form-control" placeholder="Tu Email Acá">
+								  </div>
+								  <div class="form-group">
+									  <button type="submit" class="btn btn-primary">Enviar</button>
+								  </div>
+								  
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-md-offset-2">
 						<div class="row margin_row">
 							<div class="col-md-12">
 							     <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
@@ -267,6 +320,131 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+    	<!-- Modal content-->
+    		<div class="modal-content">
+      			<div class="modal-header">
+      				<div class="row">
+      					<div class="col-md-12">
+      					<h3 class="popup_header">Bienvenido, Ingrese sus datos</h3>		
+      					</div>
+      				</div>
+      				<div class="row">
+      					<div class="col-md-12">
+      						<small class="popup_header">
+      							Se requiere los campos con *
+      						</small>
+      					</div>
+      				</div>
+	        		
+      			</div>
+			    <div class="modal-body">
+			       <form action="" name="form1" id="">
+			       <div class="row">
+			       	<div class="col-md-6">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Primer Nombre *</label>
+			       		<input type="text" class="form-control" placeholder="" id="prnombre">
+			       	    </div>
+			       	</div>
+			       	<div class="col-md-6">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Segundo Nombre</label>
+			       		<input type="text" class="form-control" placeholder="" id="sgnombre">
+			       	</div>
+			       	</div>
+			       	<div class="col-md-6">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Primer Apellido *</label>
+			       		<input type="text" class="form-control" placeholder="" id="prapellido">
+			       	</div>
+			       	</div>
+			       	<div class="col-md-6">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Segundo Apellido *</label>
+			       		<input type="text" class="form-control" placeholder="" id="sgapellido">
+			       	</div>
+			       	</div>
+			       	<div class="col-md-12">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Email *</label>
+			       		<input type="email" class="form-control" placeholder="correo@ejemplo.com" id="email_user">
+			       	</div>
+			       	</div>
+			       	<div class="col-md-6">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Usuario *</label>
+			       		<input type="text" class="form-control" placeholder="" id="user_pmi">
+			       	</div>
+			       	</div>
+			       	<div class="col-md-6">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Password *</label>
+			       		<input type="password" class="form-control" placeholder="" id="pass_pmi">
+			       	</div>
+			       	</div>
+			       </div>
+			       </form>
+			    </div>
+		       <div class="modal-footer">
+			    <button type="button" class="btn btn-primary popup_header" id="create_user">Crear Cuenta</button>
+		        <button type="button" class="btn btn-default popup_header" data-dismiss="modal">Cerrar</button>
+		       </div>
+    			</div>
+
+  			</div>
+		</div>
+
+
+		<!-- Modal -->
+		<div id="myModal2" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+    	<!-- Modal content-->
+    		<div class="modal-content">
+      			<div class="modal-header">
+      				<div class="row">
+      					<div class="col-md-12">
+      					<h3 class="popup_header">Ingrese los datos</h3>		
+      					</div>
+      				</div>
+      				<div class="row">
+      					<div class="col-md-12">
+      						<small class="popup_header">
+      							Se requiere los campos con *
+      						</small>
+      					</div>
+      				</div>
+	        		
+      			</div>
+			    <div class="modal-body">
+			       <form action="" name="form1" id="">
+			       <div class="row">
+			       	<div class="col-md-6">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Usuario *</label>
+			       		<input type="text" class="form-control" placeholder="" id="prnombre">
+			       	    </div>
+			       	</div>
+			       	<div class="col-md-6">
+			       		<div class="form-group">
+			       		<label for="" class="popup_header">Contraseña *</label>
+			       		<input type="password" class="form-control" placeholder="" id="sgnombre">
+			       	</div>
+			       	</div>
+			       </div>
+			       </form>
+			    </div>
+		       <div class="modal-footer">
+			    <button type="button" class="btn btn-primary popup_header" id="create_user">Crear Cuenta</button>
+		        <button type="button" class="btn btn-default popup_header" data-dismiss="modal">Cerrar</button>
+		       </div>
+    			</div>
+
+  			</div>
+		</div>
         
 	</div>
 
@@ -274,5 +452,7 @@
 
 	<script src="js/jquery.js" type="text/javascript" charset="utf-8" async defer></script>
 	<script src="js/bootstrap.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="js/data_user_control.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="js/control_effects.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>

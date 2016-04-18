@@ -47,7 +47,7 @@
 	    display: block;
 	    width: auto;
 	    height: 21px;
-	    background: #f8434a;
+	    background: #2980b9;
 	    padding: 6px;
 	    color: #fff;
 	    border-radius: 3px;
@@ -117,3 +117,104 @@
 	    color: #dddddd;
 	    font-weight: 700;
 	}
+
+	.button_user{
+		display: inline-block;
+		margin-top: 62px;
+		margin-left: 42px;
+		color: #fff;
+		width: 115px;
+		height: 33px;
+		padding: 6px;
+		border: solid;
+		border-width: 1px;
+		cursor: pointer;
+		font-family: Open_sans;
+		
+	}
+
+	.button_user:active{
+		background-color: rgba(119, 119, 119, 0.61);
+	}
+
+	.popup_header{
+		font-family: Open_sans;
+	}
+	
+	.social_header{
+		margin-top:63px;
+		cursor:pointer;
+	}
+	.login{
+		margin-top: 63px;
+		cursor: pointer;
+		text-align: center;
+		font-family: open_sans;
+		display: block;
+		padding: 6px;
+		color: #fff;
+		border-radius: 3px;
+		cursor: pointer;
+		box-sizing: content-box;
+		text-decoration: underline;
+	}
+	
+	/*Beneficios*/
+	
+	.img_bulb{
+		display: inline-block;
+		width: 64px;
+		height: 64px;
+		float: left;
+	}
+	
+	.text_info{
+		font-family: open_sans;
+		text-align: center;
+		font-size: 14px;
+		
+	}
+	
+	.text_info_box{
+	    background: #16a085;
+		color: #fff;
+		padding-top: 7px;
+	}
+	
+	.background_col_beneficios{
+	    background: #ecf0f1;
+		cursor:pointer;
+	}
+	
+	.align_image_beneficios{
+	margin-left: 13px;
+    margin-top: 15px;
+	}
+	
+	.video_image{
+		position: absolute;
+		left: 0;
+		right: 0;
+	}
+	
+	#round{
+		width: 200px;
+		height: 200px;
+		border: solid;
+		border-radius: 50%;
+		background: #2980b9;
+		border-color: #3498db;
+		border-width: 2px;
+		cursor:pointer;
+			
+	}
+	
+	#round > h4{
+    font-size: 20px;
+    font-family: open_sans;
+    color: #fff;
+    margin-top: 133px;
+    margin-left: 29px;
+	}
+	
+	
