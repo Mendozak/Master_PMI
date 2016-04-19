@@ -120,6 +120,7 @@
 
 	.button_user{
 		display: inline-block;
+<<<<<<< HEAD
 		margin-top: 62px;
 		margin-left: 42px;
 		color: #fff;
@@ -131,6 +132,18 @@
 		cursor: pointer;
 		font-family: Open_sans;
 		
+=======
+	    margin-top: 62px;
+	    margin-left: 42px;
+	    color: #fff;
+	    width: 112px;
+	    height: 33px;
+	    padding: 6px;
+	    border: solid;
+	    border-width: 1px;
+	    cursor: pointer;
+	    font-family: Open_sans;
+>>>>>>> 8c9d1c7698e7cd0cba0d792d941b42a65f693d54
 	}
 
 	.button_user:active{
@@ -140,6 +153,7 @@
 	.popup_header{
 		font-family: Open_sans;
 	}
+<<<<<<< HEAD
 	
 	.social_header{
 		margin-top:63px;
@@ -218,3 +232,5 @@
 	}
 	
 	
+=======
+>>>>>>> 8c9d1c7698e7cd0cba0d792d941b42a65f693d54

@@ -11,22 +11,18 @@
 		
 		 function __construct(){
 		 	
-		 	$this->host	= "localhost";
+		 	$this->host	= "127.0.0.1";
 		 	$this->user = "root";
 		 	$this->pass = "";
-		 	$this->db = "pmi_schema";
+		 	$this->db   = "test_pmi";
 		 }
 
 		public function abrir_conexion_pmidb(){
 
-			$mysqli = new mysqli('localhost','root','','pmi_schema');
-			echo $this->host;
-			echo $this->user;
-			echo $this->pass;
-			echo $this->db;
+			$mysqli = new mysqli('127.0.0.1','root','','test_pmi');
 
-			if($mysqli->connect_error){
-				echo 'conexion';
+			if($mysqli){
+				return $mysqli;
 			}else{
 				echo "error";
 			}
